@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import { FiChevronLeft } from "react-icons/fi";
 
+import Logo from '../../assets/logo.svg'
+
 export const Container = styled.header`
   grid-area: header;
 
@@ -20,7 +22,7 @@ export const LogoContainer = styled.div`
 `;
 
 export const LogoImage = styled.img.attrs({
-  src: require('../../assets/logo.svg'),
+  src: Logo,
   alt: 'Vagas Explorer'
 })`
   height: 60px;
